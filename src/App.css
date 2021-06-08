@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(42, 53, 83);
+  box-sizing: border-box;
+}
+
+a {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  color: rgba(0, 0, 0);
+}
+
+.addCardHeader {
+  align-items: center;
+  background-color: rgb(80, 150, 255);
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+}
+
+
+.movie-list {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.movie-card {
+  background-color: blanchedalmond;
+  height: 30%;
+  margin: 30px;
+  text-align: justify;
+  width: 30%;
+}
+
+.movie-card-body {
+  margin: 10px 0;
+}
+
+.movie-card-body h4, h5, p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.movie-card-storyline {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.movie-card-image {
+  width: 100%;
+}
+
+.movie-details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.movie-details h1, p {
+  color: antiquewhite;
+}
+
+.loading {
+  align-items: center;
+  color: antiquewhite;
+  display: flex;
+  font-size: 5em;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerForm {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.form div {
+  color: antiquewhite;
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.form div input, select, textarea, button {
+  font-size: 0.5em;
+  font-weight: 800;
+  height: 40px;
+  margin-bottom: 15px;
+  width: 300px;
+}
